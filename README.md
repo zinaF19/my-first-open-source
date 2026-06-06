@@ -19,6 +19,11 @@ This repository is used for learning GitHub workflows and security practices.
 - Created repository
 - Created branch
 - Testing pull requests
+## Security Features
+
+- Branch Protection
+- Code Review
+- Security Scanning
 
 ## Author
 
