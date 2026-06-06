@@ -6,7 +6,6 @@ on:
 
 jobs:
   analysis:
-    name: Scorecard analysis
     runs-on: ubuntu-latest
 
     permissions:
@@ -15,9 +14,18 @@ jobs:
       contents: read
 
     steps:
-      - name: Run analysis
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Scorecard analysis
         uses: ossf/scorecard-action@v2.4.0
         with:
           results_file: results.sarif
           results_format: sarif
           publish_results: true
+
+      - name: Upload results artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: scorecard-results
+          path: results.sarif
