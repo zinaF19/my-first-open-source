@@ -23,3 +23,4 @@ jobs:
           results_file: results.sarif
           results_format: sarif
           publish_results: true
+# trigger run
