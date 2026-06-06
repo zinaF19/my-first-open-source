@@ -1,0 +1,15 @@
+# My First Open Source Security Project
+
+This repository is created to learn GitHub workflows and security best practices.
+
+## Goals
+
+- Learn GitHub collaboration
+- Use Pull Requests
+- Use GitHub Actions
+- Apply security checks
+- Improve repository security score
+
+## Author
+
+Zina
