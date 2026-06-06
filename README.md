@@ -10,6 +10,12 @@ This repository is created to learn GitHub workflows and security best practices
 - Apply security checks
 - Improve repository security score
 
+## Security Features
+
+- Branch Protection
+- Code Review
+- Security Scanning
+
 ## Author
 
 Zina
