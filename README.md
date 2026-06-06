@@ -10,6 +10,15 @@ This repository is created to learn GitHub workflows and security best practices
 - Apply security checks
 - Improve repository security score
 
+## Repository Status
+
+This repository is used for learning GitHub workflows and security practices.
+
+### Completed Tasks
+
+- Created repository
+- Created branch
+- Testing pull requests
 ## Security Features
 
 - Branch Protection
